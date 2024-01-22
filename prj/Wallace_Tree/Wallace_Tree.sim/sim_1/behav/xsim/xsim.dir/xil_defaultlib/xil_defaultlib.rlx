@@ -1,0 +1,13 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/prj/Wallace_Tree/Wallace_Tree.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/adder/full_adder.v,1705820285,verilog,,E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/adder/half_adder.v,,full_adder,,,,,,,,
+E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/adder/half_adder.v,1705819980,verilog,,E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/encoder/modefied_booth_enc.v,,half_adder,,,,,,,,
+E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/encoder/modefied_booth_enc.v,1705905497,verilog,,E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/par_product/par_product_add.v,,modefied_booth_enc,,,,,,,,
+E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/par_product/par_product_add.v,1705905872,verilog,,E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/par_product/par_product_calc.v,,par_product_add,,,,,,,,
+E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/par_product/par_product_calc.v,1705905522,verilog,,E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/par_product/par_product_gen.v,,par_product_calc,,,,,,,,
+E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/par_product/par_product_gen.v,1705905353,verilog,,E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/wallace_mul.v,,par_product_gen,,,,,,,,
+E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/wallace_mul.v,1705905726,verilog,,E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/sim/tb/testbeach.v,,wallace_mul,,,,,,,,
+E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/sim/tb/testbeach.v,1705906472,verilog,,,,tb_wallace_mul,,,,,,,,

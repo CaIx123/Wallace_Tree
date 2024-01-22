@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg400-2" LaunchTime="1705927755">
+  <File Type="OPT-HWDEF" Name="wallace_mul.hwdef"/>
+  <File Type="ROUTE-BUS-SKEW" Name="wallace_mul_bus_skew_routed.rpt"/>
+  <File Type="PA-DCP" Name="wallace_mul.dcp"/>
+  <File Type="ROUTE-PWR" Name="wallace_mul_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="wallace_mul.tcl"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="wallace_mul_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="wallace_mul_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="wallace_mul_power_summary_routed.pb"/>
+  <File Type="OPT-RQA-PB" Name="wallace_mul_rqa_opted.pb"/>
+  <File Type="REPORTS-TCL" Name="wallace_mul_reports.tcl"/>
+  <File Type="OPT-TIMING" Name="wallace_mul_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="wallace_mul_opt.dcp"/>
+  <File Type="OPT-DRC" Name="wallace_mul_drc_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="wallace_mul_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="wallace_mul_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="wallace_mul_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="wallace_mul_placed.dcp"/>
+  <File Type="PLACE-IO" Name="wallace_mul_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="wallace_mul_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="wallace_mul_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="wallace_mul_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="wallace_mul_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="wallace_mul_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="wallace_mul_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="wallace_mul.bin"/>
+  <File Type="PLACE-TIMING" Name="wallace_mul_timing_summary_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="wallace_mul_power_routed.rpx"/>
+  <File Type="PLACE-RQA-PB" Name="wallace_mul_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="wallace_mul_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="wallace_mul.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="wallace_mul_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="wallace_mul_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="wallace_mul_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="wallace_mul.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="wallace_mul_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="wallace_mul_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="wallace_mul_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="wallace_mul_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="wallace_mul_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="wallace_mul_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="wallace_mul_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="wallace_mul_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="wallace_mul_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="wallace_mul_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-RQS-PB" Name="wallace_mul_rqs_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="wallace_mul_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="wallace_mul_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="wallace_mul_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="wallace_mul_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="wallace_mul_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="wallace_mul_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="wallace_mul_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="wallace_mul_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="wallace_mul_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="wallace_mul_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="wallace_mul_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="wallace_mul_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="wallace_mul_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="wallace_mul_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="wallace_mul_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="wallace_mul.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="wallace_mul_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="wallace_mul_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="wallace_mul.nky"/>
+  <File Type="BITSTR-BMM" Name="wallace_mul_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="wallace_mul.mmi"/>
+  <File Type="PDI-FILE" Name="wallace_mul.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="wallace_mul_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="wallace_mul_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="wallace_mul.rcfi"/>
+  <File Type="CFI_FILE" Name="wallace_mul.cfi"/>
+  <File Type="RNPI_FILE" Name="wallace_mul.rnpi"/>
+  <File Type="NPI_FILE" Name="wallace_mul.npi"/>
+  <File Type="RBD_FILE" Name="wallace_mul.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="wallace_mul.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="wallace_mul.sysdef"/>
+  <File Type="BG-BGN" Name="wallace_mul.bgn"/>
+  <File Type="BG-DRC" Name="wallace_mul.drc"/>
+  <File Type="RDI-RDI" Name="wallace_mul.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="wallace_mul_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="wallace_mul_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../../rtl/adder/full_adder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../rtl/adder/half_adder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../rtl/encoder/modefied_booth_enc.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../rtl/par_product/par_product_add.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../rtl/par_product/par_product_calc.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../rtl/par_product/par_product_gen.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../rtl/wallace_mul.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../rtl/encoder/booth_encoder.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../rtl/adder/cla_4bits.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../rtl/adder/cla_32bits.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="wallace_mul"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/wallace_mul.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

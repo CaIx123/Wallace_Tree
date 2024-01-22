@@ -1,0 +1,283 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/prj/Wallace_Tree/Wallace_Tree.sim/sim_1/impl/timing/modelsim
+vglbl
+Z1 !s110 1705927878
+!i10b 1
+!s100 2adJFSM;^@SiZWk0a0iL50
+INbHRhMBfFAFG`Ibo:]cH82
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1705927876
+Z4 8tb_wallace_mul_time_impl.v
+Z5 Ftb_wallace_mul_time_impl.v
+L0 10825
+Z6 OL;L;10.5;63
+r1
+!s85 0
+31
+Z7 !s108 1705927878.000000
+Z8 !s107 ../../../../../../../sim/tb/testbeach.v|tb_wallace_mul_time_impl.v|
+Z9 !s90 -incr|-mfcu|-work|xil_defaultlib|tb_wallace_mul_time_impl.v|../../../../../../../sim/tb/testbeach.v|
+!i113 1
+Z10 o-mfcu -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 tCvgOpt 0
+vmodefied_booth_enc
+R1
+!i10b 1
+!s100 H=ATNE8nK9V7[l<nQojM71
+I1A:hnf`aR27WE>Uc@e@zh3
+R2
+R0
+R3
+R4
+R5
+L0 17
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vpar_product_calc
+R1
+!i10b 1
+!s100 DhAURAUI>VERz<VJYonU[3
+Ii_NKaBS9EM@akS0TNg`zU3
+R2
+R0
+R3
+R4
+R5
+L0 890
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vpar_product_gen
+R1
+!i10b 1
+!s100 7IWAFg_5z[jJo411FH=l83
+IPClgVOUfY3DL149abC[6K0
+R2
+R0
+R3
+R4
+R5
+L0 1291
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vpar_product_gen_0
+R1
+!i10b 1
+!s100 ]XO[k4UjB`5DVi^09KnS<2
+IF]ljWn:D>[TfbRL`M>80e3
+R2
+R0
+R3
+R4
+R5
+L0 2271
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vpar_product_gen_1
+R1
+!i10b 1
+!s100 cVYiK>U7G:F25]WcMJ?Vb1
+I9=cKZHLUO]DRWz4S^G[CU3
+R2
+R0
+R3
+R4
+R5
+L0 3436
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vpar_product_gen_2
+R1
+!i10b 1
+!s100 bFJaXhW7;8ok_`8R=]l7z0
+Ii4Y4jD;?TnOQkhR51HCz21
+R2
+R0
+R3
+R4
+R5
+L0 4749
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vpar_product_gen_3
+R1
+!i10b 1
+!s100 5ICaoZ[:Sj^6fiFmBR1TA0
+Ikj3<Hh`G>jWWSSchYASC31
+R2
+R0
+R3
+R4
+R5
+L0 5783
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vpar_product_gen_4
+R1
+!i10b 1
+!s100 JGj6[nBO8gD[LA52IIOeM0
+IC9RN>1j0<Y@59aaW6ZGmW1
+R2
+R0
+R3
+R4
+R5
+L0 6943
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vpar_product_gen_5
+R1
+!i10b 1
+!s100 KI9jYB0UHjCmWb:PM;`VN2
+Iml4EG;:mV:M9ddZjG_d;m1
+R2
+R0
+R3
+R4
+R5
+L0 8012
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vpar_product_gen_6
+R1
+!i10b 1
+!s100 iAaMLaRi=SBHJ0SWiTMlK2
+IEo9mkb54R?zHX3IQ_QPf90
+R2
+R0
+R3
+R4
+R5
+L0 9681
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vtb_wallace_mul
+R1
+!i10b 1
+!s100 Dz5=:bP9NB;>8lO>Wn`;h3
+IjOfg0H^P3>FN^L_U9d?230
+R2
+R0
+w1705906472
+8../../../../../../../sim/tb/testbeach.v
+F../../../../../../../sim/tb/testbeach.v
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vwallace_mul
+R1
+!i10b 1
+!s100 I^hokbQClaN6[31:`NLPA3
+IBSiOQVZ]KXKdWfVVL8S_72
+R2
+R0
+R3
+R4
+R5
+L0 10598
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11

@@ -1,0 +1,59 @@
+# //  ModelSim SE-64 10.5 Feb 13 2016 
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do {tb_wallace_mul_simulate.do}
+# vsim -voptargs=""+acc"" "+transport_int_delays" "+pulse_e/0" "+pulse_int_e/0" "+pulse_r/0" "+pulse_int_r/0" -L xil_defaultlib -L simprims_ver -L secureip -lib xil_defaultlib xil_defaultlib.tb_wallace_mul xil_defaultlib.glbl 
+# Start time: 20:46:13 on Jan 22,2024
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading xil_defaultlib.tb_wallace_mul
+# Loading xil_defaultlib.wallace_mul
+# Loading simprims_ver.IBUF
+# Loading simprims_ver.OBUF
+# Loading xil_defaultlib.par_product_calc
+# Loading xil_defaultlib.modefied_booth_enc
+# Loading simprims_ver.LUT4
+# Loading simprims_ver.CARRY4
+# Loading simprims_ver.LUT2
+# Loading xil_defaultlib.par_product_gen
+# Loading simprims_ver.LDCE
+# Loading simprims_ver.LUT3
+# Loading simprims_ver.LUT1
+# Loading simprims_ver.LUT5
+# Loading simprims_ver.LUT6
+# Loading xil_defaultlib.par_product_gen_0
+# Loading xil_defaultlib.par_product_gen_1
+# Loading xil_defaultlib.par_product_gen_2
+# Loading xil_defaultlib.par_product_gen_3
+# Loading xil_defaultlib.par_product_gen_4
+# Loading xil_defaultlib.par_product_gen_5
+# Loading xil_defaultlib.par_product_gen_6
+# Loading xil_defaultlib.glbl
+# SDF-64 10.5 Compiler 2016.02 Feb 13 2016
+# 
+# Loading instances from tb_wallace_mul_time_synth.sdf
+# Loading simprims_ver.x_lut2_mux4
+# Loading simprims_ver.latchsre_ldce
+# Loading simprims_ver.x_lut3_mux8
+# Loading simprims_ver.x_lut1_mux2
+# Loading timing data from tb_wallace_mul_time_synth.sdf
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_wallace_mul File: ../../../../../../../sim/tb/testbeach.v
+# ** Warning: (vsim-3316) No solution possible for some delayed timing check nets. 1680 negative limits were zeroed. Use +ntc_warn for more info.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_wallace_mul File: ../../../../../../../sim/tb/testbeach.v
+# 1
+# 1
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# End time: 20:49:04 on Jan 22,2024, Elapsed time: 0:02:51
+# Errors: 0, Warnings: 2

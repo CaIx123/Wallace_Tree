@@ -1,0 +1,17 @@
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_wallace_mul_behav xil_defaultlib.tb_wallace_mul xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 30 differs from formal bit length 29 for port 'product_out2' [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/par_product/par_product_calc.v:124]
+WARNING: [VRFC 10-3091] actual bit length 30 differs from formal bit length 29 for port 'product1' [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/par_product/par_product_calc.v:144]
+WARNING: [VRFC 10-3091] actual bit length 30 differs from formal bit length 29 for port 'product_out1' [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/par_product/par_product_calc.v:147]
+WARNING: [VRFC 10-3091] actual bit length 30 differs from formal bit length 29 for port 'product2' [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/par_product/par_product_calc.v:157]
+WARNING: [VRFC 10-3705] select index 24 into 'product3' is out of bounds [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/par_product/par_product_add.v:19]
+WARNING: [VRFC 10-3705] select index 25 into 'product_out2' is out of bounds [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/par_product/par_product_add.v:21]
+WARNING: [VRFC 10-3705] select index 26 into 'product2' is out of bounds [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/par_product/par_product_add.v:18]
+WARNING: [VRFC 10-3705] select index 28 into 'product_out1' is out of bounds [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/par_product/par_product_add.v:22]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

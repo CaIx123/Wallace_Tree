@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../rtl/adder/full_adder.v" \
+"../../../../../../rtl/adder/half_adder.v" \
+"../../../../../../rtl/encoder/modefied_booth_enc.v" \
+"../../../../../../rtl/par_product/par_product_add.v" \
+"../../../../../../rtl/par_product/par_product_calc.v" \
+"../../../../../../rtl/par_product/par_product_gen.v" \
+"../../../../../../rtl/wallace_mul.v" \
+"../../../../../../sim/tb/testbeach.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
