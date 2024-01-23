@@ -13,23 +13,22 @@
 # //
 # do {tb_wallace_mul_simulate.do}
 # vsim -voptargs=""+acc"" "+transport_int_delays" "+pulse_e/0" "+pulse_int_e/0" "+pulse_r/0" "+pulse_int_r/0" -L xil_defaultlib -L simprims_ver -L secureip -lib xil_defaultlib xil_defaultlib.tb_wallace_mul xil_defaultlib.glbl 
-# Start time: 20:51:26 on Jan 22,2024
+# Start time: 16:27:37 on Jan 23,2024
 # ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
 # Loading xil_defaultlib.tb_wallace_mul
 # Loading xil_defaultlib.wallace_mul
 # Loading simprims_ver.IBUF
 # Loading simprims_ver.OBUF
 # Loading xil_defaultlib.par_product_calc
-# Loading xil_defaultlib.modefied_booth_enc
-# Loading simprims_ver.LUT4
-# Loading simprims_ver.CARRY4
-# Loading simprims_ver.LUT2
-# Loading xil_defaultlib.par_product_gen
-# Loading simprims_ver.LDCE
-# Loading simprims_ver.LUT3
-# Loading simprims_ver.LUT1
-# Loading simprims_ver.LUT5
+# Loading xil_defaultlib.par_product_add__parameterized3
+# Loading xil_defaultlib.full_adder
 # Loading simprims_ver.LUT6
+# Loading xil_defaultlib.par_product_gen
+# Loading simprims_ver.LUT3
+# Loading simprims_ver.LUT2
+# Loading simprims_ver.LUT5
+# Loading simprims_ver.LDCE
+# Loading simprims_ver.LUT4
 # Loading xil_defaultlib.par_product_gen_0
 # Loading xil_defaultlib.par_product_gen_1
 # Loading xil_defaultlib.par_product_gen_2
@@ -37,24 +36,24 @@
 # Loading xil_defaultlib.par_product_gen_4
 # Loading xil_defaultlib.par_product_gen_5
 # Loading xil_defaultlib.par_product_gen_6
+# Loading simprims_ver.LUT1
 # Loading xil_defaultlib.glbl
 # SDF-64 10.5 Compiler 2016.02 Feb 13 2016
 # 
 # Loading instances from tb_wallace_mul_time_impl.sdf
+# Loading simprims_ver.x_lut3_mux8
 # Loading simprims_ver.x_lut2_mux4
 # Loading simprims_ver.latchsre_ldce
-# Loading simprims_ver.x_lut3_mux8
 # Loading simprims_ver.x_lut1_mux2
 # Loading timing data from tb_wallace_mul_time_impl.sdf
 # ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_wallace_mul File: ../../../../../../../sim/tb/testbeach.v
-# ** Warning: (vsim-3316) No solution possible for some delayed timing check nets. 1680 negative limits were zeroed. Use +ntc_warn for more info.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_wallace_mul File: ../../../../../../../sim/tb/testbeach.v
+#    Time: 0 ps  Iteration: 0  Instance: /tb_wallace_mul File: ../../../../../../../sim/tb/tb_wallace_tree.v
+# ** Warning: (vsim-3316) No solution possible for some delayed timing check nets. 1400 negative limits were zeroed. Use +ntc_warn for more info.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_wallace_mul File: ../../../../../../../sim/tb/tb_wallace_tree.v
 # 1
 # 1
 # .main_pane.wave.interior.cs.body.pw.wf
 # .main_pane.structure.interior.cs.body.struct
 # .main_pane.objects.interior.cs.body.tree
-# Causality operation skipped due to absence of debug database file
-# End time: 20:53:39 on Jan 22,2024, Elapsed time: 0:02:13
-# Errors: 0, Warnings: 3
+# End time: 16:46:05 on Jan 23,2024, Elapsed time: 0:18:28
+# Errors: 0, Warnings: 2

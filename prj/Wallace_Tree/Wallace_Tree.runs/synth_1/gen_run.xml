@@ -1,16 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7z020clg400-2" LaunchTime="1705927436" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/wallace_mul.dcp">
-  <File Type="PA-TCL" Name="wallace_mul.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="wallace_mul_drc_synth.rpt"/>
-  <File Type="REPORTS-TCL" Name="wallace_mul_reports.tcl"/>
-  <File Type="RDS-RDS" Name="wallace_mul.vds"/>
-  <File Type="RDS-UTIL" Name="wallace_mul_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="wallace_mul_utilization_synth.pb"/>
-  <File Type="RDS-DCP" Name="wallace_mul.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="wallace_mul_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="wallace_mul_timing_summary_synth.pb"/>
+<GenRun Id="synth_1" LaunchPart="xc7z020clg400-2" LaunchTime="1706000981" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/wallace_mul.dcp">
+  <File Type="PA-TCL" Name="test_top.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="test_top_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="test_top_reports.tcl"/>
+  <File Type="RDS-RDS" Name="test_top.vds"/>
+  <File Type="RDS-UTIL" Name="test_top_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="test_top_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="test_top.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="test_top_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="test_top_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../../rtl/adder/adder4.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../rtl/adder/cla_32bits.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PPRDIR/../../rtl/adder/full_adder.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -60,23 +74,14 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+    <File Path="$PPRDIR/../../rtl/test_top.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PPRDIR/../../rtl/encoder/booth_encoder.v">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../../rtl/adder/cla_4bits.v">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../../rtl/adder/cla_32bits.v">
       <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -86,12 +91,17 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="wallace_mul"/>
-      <Option Name="TopAutoSet" Val="TRUE"/>
+      <Option Name="TopModule" Val="test_top"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
     <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/constraints.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
     <Config>
       <Option Name="ConstrsType" Val="XDC"/>
     </Config>

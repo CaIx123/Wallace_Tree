@@ -1,0 +1,262 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/prj/Wallace_Tree/Wallace_Tree.sim/sim_1/synth/func/modelsim
+vadder4
+Z1 !s110 1705995856
+!i10b 1
+!s100 >Ve5DGjOalEn2HL><[><B1
+IZe9NjPUJ1f<@I_MWT3k2Y1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1705985554
+8../../../../../../../rtl/adder/adder4.v
+F../../../../../../../rtl/adder/adder4.v
+L0 1
+Z3 OL;L;10.5;63
+r1
+!s85 0
+31
+Z4 !s108 1705995856.000000
+Z5 !s107 ../../../../../../../sim/tb/tb_wallace_tree.v|../../../../../../../rtl/wallace_mul.v|../../../../../../../rtl/par_product/par_product_gen.v|../../../../../../../rtl/par_product/par_product_calc.v|../../../../../../../rtl/par_product/par_product_add.v|../../../../../../../rtl/encoder/modefied_booth_enc.v|../../../../../../../rtl/adder/half_adder.v|../../../../../../../rtl/adder/full_adder.v|../../../../../../../rtl/adder/cla_32bits.v|../../../../../../../rtl/adder/adder4.v|tb_wallace_mul_func_synth.v|
+Z6 !s90 -incr|-mfcu|-work|xil_defaultlib|tb_wallace_mul_func_synth.v|../../../../../../../rtl/adder/adder4.v|../../../../../../../rtl/adder/cla_32bits.v|../../../../../../../rtl/adder/full_adder.v|../../../../../../../rtl/adder/half_adder.v|../../../../../../../rtl/encoder/modefied_booth_enc.v|../../../../../../../rtl/par_product/par_product_add.v|../../../../../../../rtl/par_product/par_product_calc.v|../../../../../../../rtl/par_product/par_product_gen.v|../../../../../../../rtl/wallace_mul.v|../../../../../../../sim/tb/tb_wallace_tree.v|
+!i113 1
+Z7 o-mfcu -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z8 tCvgOpt 0
+vcla_32bits
+R1
+!i10b 1
+!s100 BzTSAEYXMShV=L;ZVWo272
+IMHa[eRD@o?l^4X2BFUP7h1
+R2
+R0
+w1705985517
+8../../../../../../../rtl/adder/cla_32bits.v
+F../../../../../../../rtl/adder/cla_32bits.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+R8
+vfull_adder
+R1
+!i10b 1
+!s100 WZ_UdUB8afT@N5zMU8m>10
+Id[AgUU@DY:1egfGa8Zoce1
+R2
+R0
+w1705820285
+8../../../../../../../rtl/adder/full_adder.v
+F../../../../../../../rtl/adder/full_adder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+R8
+vglbl
+R1
+!i10b 1
+!s100 CFX?NM[[zC[>PijMLc:`?2
+In8`F^oA``396VeDj^6F8<1
+R2
+R0
+Z9 w1705995850
+Z10 8tb_wallace_mul_func_synth.v
+Z11 Ftb_wallace_mul_func_synth.v
+L0 29
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+R8
+vhalf_adder
+R1
+!i10b 1
+!s100 7oF>014aOn]hYh[KHe:GN2
+I2H4NbEb1X8YKF;QG6AF6W3
+R2
+R0
+w1705926322
+8../../../../../../../rtl/adder/half_adder.v
+F../../../../../../../rtl/adder/half_adder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+R8
+vmodefied_booth_enc
+R1
+!i10b 1
+!s100 O7UmG8:IKb<c5cP6WFocP2
+IAYF20_ih;VC1@L23RKXml1
+R2
+R0
+w1705905497
+8../../../../../../../rtl/encoder/modefied_booth_enc.v
+F../../../../../../../rtl/encoder/modefied_booth_enc.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+R8
+vpar_product_add
+R1
+!i10b 1
+!s100 A1G=K3nbH`aZjWnfBjzmT2
+I?boe6:RlV2ee=MRb81^GC2
+R2
+R0
+w1705983143
+8../../../../../../../rtl/par_product/par_product_add.v
+F../../../../../../../rtl/par_product/par_product_add.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+R8
+vpar_product_calc
+R1
+!i10b 1
+!s100 38a53SkGZ;ghNBm>Deo3G2
+I_6<56LC:ha_EONUMhR_Q21
+R2
+R0
+w1705926634
+8../../../../../../../rtl/par_product/par_product_calc.v
+F../../../../../../../rtl/par_product/par_product_calc.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+R8
+vpar_product_gen
+R1
+!i10b 1
+!s100 =_Rk7G=1A88o]V3WAf_bK2
+IbM_[98_c;J>9]G4;>>@k00
+R2
+R0
+w1705995025
+8../../../../../../../rtl/par_product/par_product_gen.v
+F../../../../../../../rtl/par_product/par_product_gen.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+R8
+vtb_wallace_mul
+R1
+!i10b 1
+!s100 h_J=dOU]oCLiWAl]I8RH>2
+I>?W=LffO[_XSOaA2<J2CH2
+R2
+R0
+w1705993873
+8../../../../../../../sim/tb/tb_wallace_tree.v
+F../../../../../../../sim/tb/tb_wallace_tree.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+R8
+vtest_top
+R1
+!i10b 1
+!s100 5KZ9702zQo@fBdeDioSUZ0
+Iek^Ec=8a3Xmj_D=AHH9263
+R2
+R0
+R9
+R10
+R11
+L0 17
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+R8
+vwallace_mul
+R1
+!i10b 1
+!s100 U4PU5E4=RJMm;>?cIN84O1
+I9;?8n;XSZambGmDj><c;T1
+R2
+R0
+w1705993816
+8../../../../../../../rtl/wallace_mul.v
+F../../../../../../../rtl/wallace_mul.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+R8

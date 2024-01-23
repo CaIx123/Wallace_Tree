@@ -8,30 +8,74 @@ z2
 !i10f 100
 cModel Technology
 Z0 dE:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/prj/Wallace_Tree/Wallace_Tree.sim/sim_1/behav/modelsim
-vfull_adder
-!s10a 1705820285
-Z1 !s110 1705906801
+vadder4
+!s10a 1705985554
+Z1 !s110 1705990550
 !i10b 1
-!s100 R`n4TCU=_NGA;lVD84CG61
-I`6ebgFaeb]PlIOzNg71W03
+!s100 a74UUKhRhSA2^z>PBo1Tl1
+IJSMPaeFcY<jKd]NB]B2_N3
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1705820285
-8../../../../../../rtl/adder/full_adder.v
-F../../../../../../rtl/adder/full_adder.v
+w1705985554
+8../../../../../../rtl/adder/adder4.v
+F../../../../../../rtl/adder/adder4.v
 L0 1
 Z3 OL;L;10.5;63
 r1
 !s85 0
 31
-Z4 !s108 1705906801.000000
-Z5 !s107 ../../../../../../sim/tb/testbeach.v|../../../../../../rtl/wallace_mul.v|../../../../../../rtl/par_product/par_product_gen.v|../../../../../../rtl/par_product/par_product_calc.v|../../../../../../rtl/par_product/par_product_add.v|../../../../../../rtl/encoder/modefied_booth_enc.v|../../../../../../rtl/adder/half_adder.v|../../../../../../rtl/adder/full_adder.v|
-Z6 !s90 -incr|-mfcu|-work|xil_defaultlib|../../../../../../rtl/adder/full_adder.v|../../../../../../rtl/adder/half_adder.v|../../../../../../rtl/encoder/modefied_booth_enc.v|../../../../../../rtl/par_product/par_product_add.v|../../../../../../rtl/par_product/par_product_calc.v|../../../../../../rtl/par_product/par_product_gen.v|../../../../../../rtl/wallace_mul.v|../../../../../../sim/tb/testbeach.v|
+Z4 !s108 1705990550.000000
+Z5 !s107 ../../../../../../sim/tb/tb_wallace_tree.v|../../../../../../rtl/wallace_mul.v|../../../../../../rtl/par_product/par_product_gen.v|../../../../../../rtl/par_product/par_product_calc.v|../../../../../../rtl/par_product/par_product_add.v|../../../../../../rtl/encoder/modefied_booth_enc.v|../../../../../../rtl/adder/half_adder.v|../../../../../../rtl/adder/full_adder.v|../../../../../../rtl/adder/cla_32bits.v|../../../../../../rtl/adder/adder4.v|
+Z6 !s90 -incr|-mfcu|-work|xil_defaultlib|../../../../../../rtl/adder/adder4.v|../../../../../../rtl/adder/cla_32bits.v|../../../../../../rtl/adder/full_adder.v|../../../../../../rtl/adder/half_adder.v|../../../../../../rtl/encoder/modefied_booth_enc.v|../../../../../../rtl/par_product/par_product_add.v|../../../../../../rtl/par_product/par_product_calc.v|../../../../../../rtl/par_product/par_product_gen.v|../../../../../../rtl/wallace_mul.v|../../../../../../sim/tb/tb_wallace_tree.v|
 !i113 1
 Z7 o-mfcu -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 Z8 tCvgOpt 0
+vcla_32bits
+!s10a 1705985517
+R1
+!i10b 1
+!s100 ko5h0Be2P:8HJ5Fk4ACi61
+IloQVHb=?DzcSo0`2Bg_Y63
+R2
+R0
+w1705985517
+8../../../../../../rtl/adder/cla_32bits.v
+F../../../../../../rtl/adder/cla_32bits.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+R8
+vfull_adder
+!s10a 1705820285
+Z9 !s110 1705906801
+!i10b 1
+!s100 R`n4TCU=_NGA;lVD84CG61
+I`6ebgFaeb]PlIOzNg71W03
+R2
+R0
+w1705820285
+8../../../../../../rtl/adder/full_adder.v
+F../../../../../../rtl/adder/full_adder.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z10 !s108 1705906801.000000
+Z11 !s107 ../../../../../../sim/tb/testbeach.v|../../../../../../rtl/wallace_mul.v|../../../../../../rtl/par_product/par_product_gen.v|../../../../../../rtl/par_product/par_product_calc.v|../../../../../../rtl/par_product/par_product_add.v|../../../../../../rtl/encoder/modefied_booth_enc.v|../../../../../../rtl/adder/half_adder.v|../../../../../../rtl/adder/full_adder.v|
+Z12 !s90 -incr|-mfcu|-work|xil_defaultlib|../../../../../../rtl/adder/full_adder.v|../../../../../../rtl/adder/half_adder.v|../../../../../../rtl/encoder/modefied_booth_enc.v|../../../../../../rtl/par_product/par_product_add.v|../../../../../../rtl/par_product/par_product_calc.v|../../../../../../rtl/par_product/par_product_gen.v|../../../../../../rtl/wallace_mul.v|../../../../../../sim/tb/testbeach.v|
+!i113 1
+R7
+R8
 vglbl
-Z9 !s110 1705926646
+Z13 !s110 1705995043
 !i10b 1
 !s100 aGX4R92RO3^bD43HL2j:J2
 Ii@2]DfVnUU[WE=M5a<e[a3
@@ -45,7 +89,7 @@ R3
 r1
 !s85 0
 31
-Z10 !s108 1705926646.000000
+Z14 !s108 1705995043.000000
 !s107 glbl.v|
 !s90 -work|xil_defaultlib|glbl.v|
 !i113 1
@@ -53,7 +97,7 @@ o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infac
 R8
 vhalf_adder
 !s10a 1705926322
-Z11 !s110 1705926337
+!s110 1705926337
 !i10b 1
 !s100 <?o535QoB8ZjG^^dGd59J3
 I5g>=5cFcLBj@bf8;@:?AZ0
@@ -67,15 +111,15 @@ R3
 r1
 !s85 0
 31
-Z12 !s108 1705926337.000000
-Z13 !s107 ../../../../../../sim/tb/tb_calc.v|../../../../../../rtl/par_product/par_product_gen.v|../../../../../../rtl/par_product/par_product_calc.v|../../../../../../rtl/par_product/par_product_add.v|../../../../../../rtl/encoder/modefied_booth_enc.v|../../../../../../rtl/adder/half_adder.v|../../../../../../rtl/adder/full_adder.v|
-Z14 !s90 -incr|-mfcu|-work|xil_defaultlib|../../../../../../rtl/adder/full_adder.v|../../../../../../rtl/adder/half_adder.v|../../../../../../rtl/encoder/modefied_booth_enc.v|../../../../../../rtl/par_product/par_product_add.v|../../../../../../rtl/par_product/par_product_calc.v|../../../../../../rtl/par_product/par_product_gen.v|../../../../../../sim/tb/tb_calc.v|
+!s108 1705926337.000000
+Z15 !s107 ../../../../../../sim/tb/tb_calc.v|../../../../../../rtl/par_product/par_product_gen.v|../../../../../../rtl/par_product/par_product_calc.v|../../../../../../rtl/par_product/par_product_add.v|../../../../../../rtl/encoder/modefied_booth_enc.v|../../../../../../rtl/adder/half_adder.v|../../../../../../rtl/adder/full_adder.v|
+Z16 !s90 -incr|-mfcu|-work|xil_defaultlib|../../../../../../rtl/adder/full_adder.v|../../../../../../rtl/adder/half_adder.v|../../../../../../rtl/encoder/modefied_booth_enc.v|../../../../../../rtl/par_product/par_product_add.v|../../../../../../rtl/par_product/par_product_calc.v|../../../../../../rtl/par_product/par_product_gen.v|../../../../../../sim/tb/tb_calc.v|
 !i113 1
 R7
 R8
 vmodefied_booth_enc
 !s10a 1705905497
-R1
+R9
 !i10b 1
 !s100 ;FV<7_j3[Td]2Y[_^ceFE3
 I20O6@cJH4mo1g_O?fQKeg2
@@ -89,21 +133,21 @@ R3
 r1
 !s85 0
 31
-R4
-R5
-R6
+R10
+R11
+R12
 !i113 1
 R7
 R8
 vpar_product_add
-!s10a 1705926282
-R11
+!s10a 1705983143
+R1
 !i10b 1
-!s100 [z8aV2EzZo]lkFa9ek@jA0
-IRIXBO4FG39K^`njHdGUd_0
+!s100 U6m1o69048SzCf[L_g=SE1
+IK4bb48Mn<;D`9m8^FZJRh1
 R2
 R0
-w1705926282
+w1705983143
 8../../../../../../rtl/par_product/par_product_add.v
 F../../../../../../rtl/par_product/par_product_add.v
 L0 1
@@ -111,14 +155,15 @@ R3
 r1
 !s85 0
 31
-R12
-R13
-R14
+R4
+R5
+R6
 !i113 1
 R7
 R8
 vpar_product_calc
-R9
+!s10a 1705926634
+!s110 1705926646
 !i10b 1
 !s100 BLA=z;k1iWjKEz2i75ej`1
 I_Qj`DQZJjDW2X:RFVzaRF0
@@ -132,21 +177,20 @@ R3
 r1
 !s85 0
 31
-R10
-R5
-R6
+!s108 1705926646.000000
+R11
+R12
 !i113 1
 R7
 R8
 vpar_product_gen
-!s10a 1705923923
-!s110 1705923941
+R13
 !i10b 1
-!s100 KYP5BY2maR8g[TJldQhTl2
-IX@NTZjJU8baXEm?zU^na@1
+!s100 h2gJIbQWGg]C?KXGkfaN83
+I7hQAGR;hbLBdg8Pzl6ebH3
 R2
 R0
-w1705923923
+w1705995025
 8../../../../../../rtl/par_product/par_product_gen.v
 F../../../../../../rtl/par_product/par_product_gen.v
 L0 1
@@ -154,9 +198,9 @@ R3
 r1
 !s85 0
 31
-!s108 1705923941.000000
-R13
 R14
+R5
+R6
 !i113 1
 R7
 R8
@@ -177,42 +221,42 @@ r1
 !s85 0
 31
 !s108 1705923756.000000
-R13
-R14
+R15
+R16
 !i113 1
 R7
 R8
 vtb_wallace_mul
-!s10a 1705906472
-R1
+!s10a 1705993873
+!s110 1705994996
 !i10b 1
-!s100 Dz5=:bP9NB;>8lO>Wn`;h3
-IF3dRDOV4C8gd5?=@mC`Q:0
+!s100 h_J=dOU]oCLiWAl]I8RH>2
+Im[kjYjGD4I0ciXaU]=`WG1
 R2
 R0
-w1705906472
-8../../../../../../sim/tb/testbeach.v
-F../../../../../../sim/tb/testbeach.v
+w1705993873
+8../../../../../../sim/tb/tb_wallace_tree.v
+F../../../../../../sim/tb/tb_wallace_tree.v
 L0 3
 R3
 r1
 !s85 0
 31
-R4
+!s108 1705994996.000000
 R5
 R6
 !i113 1
 R7
 R8
 vwallace_mul
-!s10a 1705905726
-R1
+!s10a 1705993816
+!s110 1705993852
 !i10b 1
-!s100 zJAG`f=S_KF86l`CEP>en0
-IJ@mOBLnYfkIR6G:HnXCie2
+!s100 KDW`Amc6^GBi?_nSYI1Ek3
+IRz4^>;b=;_N?Zh5?BUlML1
 R2
 R0
-w1705905726
+w1705993816
 8../../../../../../rtl/wallace_mul.v
 F../../../../../../rtl/wallace_mul.v
 L0 1
@@ -220,7 +264,7 @@ R3
 r1
 !s85 0
 31
-R4
+!s108 1705993852.000000
 R5
 R6
 !i113 1

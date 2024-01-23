@@ -3,10 +3,11 @@ module par_product_add #(
     parameter product_length2 = 26,
     parameter product_length3 = 24
 ) (
-    input       [product_length1 - 1 : 0] product1 ,
-    input       [product_length2 - 1 : 0] product2 ,
-    input       [product_length3 - 1 : 0] product3 ,
-    output      [product_length1 - 1 : 0] product_out1 ,
+    input       [product_length1 - 1 : 0] product1      ,
+    input       [product_length2 - 1 : 0] product2      ,
+    input       [product_length3 - 1 : 0] product3      ,   
+    input       [2                   : 0] sign          ,
+    output      [product_length1 - 1 : 0] product_out1  ,
     output      [product_length2 - 2 : 0] product_out2 
 );
 

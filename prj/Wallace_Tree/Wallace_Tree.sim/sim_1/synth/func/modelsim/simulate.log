@@ -1,0 +1,88 @@
+# //  ModelSim SE-64 10.5 Feb 13 2016 
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do {tb_wallace_mul_simulate.do}
+# vsim -voptargs=""+acc"" -L xil_defaultlib -L unisims_ver -L secureip -lib xil_defaultlib xil_defaultlib.tb_wallace_mul xil_defaultlib.glbl 
+# Start time: 15:44:22 on Jan 23,2024
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading xil_defaultlib.tb_wallace_mul
+# Loading xil_defaultlib.wallace_mul
+# Loading xil_defaultlib.par_product_calc
+# Loading xil_defaultlib.modefied_booth_enc
+# Loading xil_defaultlib.par_product_gen
+# Loading xil_defaultlib.cla_32bits
+# Loading xil_defaultlib.par_product_add
+# Loading xil_defaultlib.glbl
+# Loading xil_defaultlib.adder4
+# Loading xil_defaultlib.full_adder
+# Loading xil_defaultlib.half_adder
+# ** Warning: (vsim-3017) ../../../../../../../rtl/par_product/par_product_gen.v(29): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_wallace_mul/u_wallace_mul/u_par_product_calc/u_par_product_gen0/u_cla_32bits File: ../../../../../../../rtl/adder/cla_32bits.v
+# ** Warning: (vsim-3722) ../../../../../../../rtl/par_product/par_product_gen.v(29): [TFMPC] - Missing connection for port 'cout'.
+# ** Warning: (vsim-3017) ../../../../../../../rtl/par_product/par_product_gen.v(29): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_wallace_mul/u_wallace_mul/u_par_product_calc/u_par_product_gen1/u_cla_32bits File: ../../../../../../../rtl/adder/cla_32bits.v
+# ** Warning: (vsim-3722) ../../../../../../../rtl/par_product/par_product_gen.v(29): [TFMPC] - Missing connection for port 'cout'.
+# ** Warning: (vsim-3017) ../../../../../../../rtl/par_product/par_product_gen.v(29): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_wallace_mul/u_wallace_mul/u_par_product_calc/u_par_product_gen2/u_cla_32bits File: ../../../../../../../rtl/adder/cla_32bits.v
+# ** Warning: (vsim-3722) ../../../../../../../rtl/par_product/par_product_gen.v(29): [TFMPC] - Missing connection for port 'cout'.
+# ** Warning: (vsim-3017) ../../../../../../../rtl/par_product/par_product_gen.v(29): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_wallace_mul/u_wallace_mul/u_par_product_calc/u_par_product_gen3/u_cla_32bits File: ../../../../../../../rtl/adder/cla_32bits.v
+# ** Warning: (vsim-3722) ../../../../../../../rtl/par_product/par_product_gen.v(29): [TFMPC] - Missing connection for port 'cout'.
+# ** Warning: (vsim-3017) ../../../../../../../rtl/par_product/par_product_gen.v(29): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_wallace_mul/u_wallace_mul/u_par_product_calc/u_par_product_gen4/u_cla_32bits File: ../../../../../../../rtl/adder/cla_32bits.v
+# ** Warning: (vsim-3722) ../../../../../../../rtl/par_product/par_product_gen.v(29): [TFMPC] - Missing connection for port 'cout'.
+# ** Warning: (vsim-3017) ../../../../../../../rtl/par_product/par_product_gen.v(29): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_wallace_mul/u_wallace_mul/u_par_product_calc/u_par_product_gen5/u_cla_32bits File: ../../../../../../../rtl/adder/cla_32bits.v
+# ** Warning: (vsim-3722) ../../../../../../../rtl/par_product/par_product_gen.v(29): [TFMPC] - Missing connection for port 'cout'.
+# ** Warning: (vsim-3017) ../../../../../../../rtl/par_product/par_product_gen.v(29): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_wallace_mul/u_wallace_mul/u_par_product_calc/u_par_product_gen6/u_cla_32bits File: ../../../../../../../rtl/adder/cla_32bits.v
+# ** Warning: (vsim-3722) ../../../../../../../rtl/par_product/par_product_gen.v(29): [TFMPC] - Missing connection for port 'cout'.
+# ** Warning: (vsim-3017) ../../../../../../../rtl/par_product/par_product_gen.v(29): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_wallace_mul/u_wallace_mul/u_par_product_calc/u_par_product_gen7/u_cla_32bits File: ../../../../../../../rtl/adder/cla_32bits.v
+# ** Warning: (vsim-3722) ../../../../../../../rtl/par_product/par_product_gen.v(29): [TFMPC] - Missing connection for port 'cout'.
+# ** Warning: (vsim-3017) ../../../../../../../rtl/par_product/par_product_calc.v(97): [TFMPC] - Too few port connections. Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_wallace_mul/u_wallace_mul/u_par_product_calc/u_par_product_add0 File: ../../../../../../../rtl/par_product/par_product_add.v
+# ** Warning: (vsim-3722) ../../../../../../../rtl/par_product/par_product_calc.v(97): [TFMPC] - Missing connection for port 'sign'.
+# ** Warning: (vsim-3017) ../../../../../../../rtl/par_product/par_product_calc.v(109): [TFMPC] - Too few port connections. Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_wallace_mul/u_wallace_mul/u_par_product_calc/u_par_product_add1 File: ../../../../../../../rtl/par_product/par_product_add.v
+# ** Warning: (vsim-3722) ../../../../../../../rtl/par_product/par_product_calc.v(109): [TFMPC] - Missing connection for port 'sign'.
+# ** Warning: (vsim-3017) ../../../../../../../rtl/par_product/par_product_calc.v(121): [TFMPC] - Too few port connections. Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_wallace_mul/u_wallace_mul/u_par_product_calc/u_par_product_add2 File: ../../../../../../../rtl/par_product/par_product_add.v
+# ** Warning: (vsim-3015) ../../../../../../../rtl/par_product/par_product_calc.v(121): [PCDPC] - Port size (29) does not match connection size (30) for port 'product_out2'. The port definition is at: ../../../../../../../rtl/par_product/par_product_add.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_wallace_mul/u_wallace_mul/u_par_product_calc/u_par_product_add2 File: ../../../../../../../rtl/par_product/par_product_add.v
+# ** Warning: (vsim-3722) ../../../../../../../rtl/par_product/par_product_calc.v(121): [TFMPC] - Missing connection for port 'sign'.
+# ** Warning: (vsim-3017) ../../../../../../../rtl/par_product/par_product_calc.v(133): [TFMPC] - Too few port connections. Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_wallace_mul/u_wallace_mul/u_par_product_calc/u_par_product_add3 File: ../../../../../../../rtl/par_product/par_product_add.v
+# ** Warning: (vsim-3722) ../../../../../../../rtl/par_product/par_product_calc.v(133): [TFMPC] - Missing connection for port 'sign'.
+# ** Warning: (vsim-3017) ../../../../../../../rtl/par_product/par_product_calc.v(145): [TFMPC] - Too few port connections. Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_wallace_mul/u_wallace_mul/u_par_product_calc/u_par_product_add4 File: ../../../../../../../rtl/par_product/par_product_add.v
+# ** Warning: (vsim-3015) ../../../../../../../rtl/par_product/par_product_calc.v(145): [PCDPC] - Port size (29) does not match connection size (30) for port 'product1'. The port definition is at: ../../../../../../../rtl/par_product/par_product_add.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_wallace_mul/u_wallace_mul/u_par_product_calc/u_par_product_add4 File: ../../../../../../../rtl/par_product/par_product_add.v
+# ** Warning: (vsim-3015) ../../../../../../../rtl/par_product/par_product_calc.v(145): [PCDPC] - Port size (29) does not match connection size (30) for port 'product_out1'. The port definition is at: ../../../../../../../rtl/par_product/par_product_add.v(10).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_wallace_mul/u_wallace_mul/u_par_product_calc/u_par_product_add4 File: ../../../../../../../rtl/par_product/par_product_add.v
+# ** Warning: (vsim-3722) ../../../../../../../rtl/par_product/par_product_calc.v(145): [TFMPC] - Missing connection for port 'sign'.
+# ** Warning: (vsim-3017) ../../../../../../../rtl/par_product/par_product_calc.v(157): [TFMPC] - Too few port connections. Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_wallace_mul/u_wallace_mul/u_par_product_calc/u_par_product_add5 File: ../../../../../../../rtl/par_product/par_product_add.v
+# ** Warning: (vsim-3015) ../../../../../../../rtl/par_product/par_product_calc.v(157): [PCDPC] - Port size (29) does not match connection size (30) for port 'product2'. The port definition is at: ../../../../../../../rtl/par_product/par_product_add.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_wallace_mul/u_wallace_mul/u_par_product_calc/u_par_product_add5 File: ../../../../../../../rtl/par_product/par_product_add.v
+# ** Warning: (vsim-3722) ../../../../../../../rtl/par_product/par_product_calc.v(157): [TFMPC] - Missing connection for port 'sign'.
+# ** Warning: (vsim-3017) ../../../../../../../rtl/wallace_mul.v(18): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_wallace_mul/u_wallace_mul/u_cla_32bits File: ../../../../../../../rtl/adder/cla_32bits.v
+# ** Warning: (vsim-3722) ../../../../../../../rtl/wallace_mul.v(18): [TFMPC] - Missing connection for port 'cout'.
+# 1
+# 1
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# End time: 15:45:00 on Jan 23,2024, Elapsed time: 0:00:38
+# Errors: 0, Warnings: 35

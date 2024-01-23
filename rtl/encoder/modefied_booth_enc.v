@@ -31,7 +31,7 @@ module modefied_booth_enc (
         end
     endfunction
 
-    always @(data) begin
+    always @(*) begin
         if (!rst_n) begin
             enc2 = 7'b0;
             enc1 = 7'b0;

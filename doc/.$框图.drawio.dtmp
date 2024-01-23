@@ -1,0 +1,62 @@
+<mxfile host="Electron" modified="2024-01-23T07:01:14.883Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.1.2 Chrome/106.0.5249.199 Electron/21.4.3 Safari/537.36" etag="tKI2RmQLvRMc0A1LInUi" version="21.1.2" type="device">
+  <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
+    <mxGraphModel dx="724" dy="434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LF3oGepKTn_halethYL9-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="LF3oGepKTn_halethYL9-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="269.79310344827593" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LF3oGepKTn_halethYL9-1" value="Booth4编码电路" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="240" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LF3oGepKTn_halethYL9-19" value="部分积" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LF3oGepKTn_halethYL9-2" target="LF3oGepKTn_halethYL9-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LF3oGepKTn_halethYL9-2" value="部分积产生电路" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="140" width="60" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="LF3oGepKTn_halethYL9-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="LF3oGepKTn_halethYL9-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="270.1379310344828" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LF3oGepKTn_halethYL9-4" value="被乘数2" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="230" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LF3oGepKTn_halethYL9-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="LF3oGepKTn_halethYL9-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LF3oGepKTn_halethYL9-5" value="被乘数1" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="140" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LF3oGepKTn_halethYL9-21" value="A" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="LF3oGepKTn_halethYL9-15" target="LF3oGepKTn_halethYL9-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LF3oGepKTn_halethYL9-22" value="B" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="LF3oGepKTn_halethYL9-15" target="LF3oGepKTn_halethYL9-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LF3oGepKTn_halethYL9-15" value="部分积压缩电路" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="140" width="60" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="LF3oGepKTn_halethYL9-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="LF3oGepKTn_halethYL9-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="689.9999999999998" y="225.31034482758628" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="670" y="225" />
+              <mxPoint x="670" y="230" />
+              <mxPoint x="690" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LF3oGepKTn_halethYL9-16" value="32位超前进位加法器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="140" width="60" height="170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

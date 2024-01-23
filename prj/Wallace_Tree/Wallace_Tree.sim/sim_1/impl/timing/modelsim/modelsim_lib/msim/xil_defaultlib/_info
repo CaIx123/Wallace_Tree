@@ -8,276 +8,318 @@ z2
 !i10f 100
 cModel Technology
 Z0 dE:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/prj/Wallace_Tree/Wallace_Tree.sim/sim_1/impl/timing/modelsim
-vglbl
-Z1 !s110 1705927878
+vfull_adder
+Z1 !s110 1705998452
 !i10b 1
-!s100 2adJFSM;^@SiZWk0a0iL50
-INbHRhMBfFAFG`Ibo:]cH82
+!s100 PMfai37I`COUN[>]fLLfY1
+IOo;j>4IR<9eoYj6SgZ0jo3
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-Z3 w1705927876
+Z3 w1705998450
 Z4 8tb_wallace_mul_time_impl.v
 Z5 Ftb_wallace_mul_time_impl.v
-L0 10825
-Z6 OL;L;10.5;63
+Z6 L0 17
+Z7 OL;L;10.5;63
 r1
 !s85 0
 31
-Z7 !s108 1705927878.000000
-Z8 !s107 ../../../../../../../sim/tb/testbeach.v|tb_wallace_mul_time_impl.v|
-Z9 !s90 -incr|-mfcu|-work|xil_defaultlib|tb_wallace_mul_time_impl.v|../../../../../../../sim/tb/testbeach.v|
+Z8 !s108 1705998452.000000
+Z9 !s107 ../../../../../../../sim/tb/tb_wallace_tree.v|tb_wallace_mul_time_impl.v|
+Z10 !s90 -incr|-mfcu|-work|xil_defaultlib|tb_wallace_mul_time_impl.v|../../../../../../../sim/tb/tb_wallace_tree.v|
 !i113 1
-Z10 o-mfcu -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-Z11 tCvgOpt 0
-vmodefied_booth_enc
+Z11 o-mfcu -work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 tCvgOpt 0
+vglbl
 R1
+!i10b 1
+!s100 <_o;A:`fEKZmF<fejMK2`2
+IIJ1]RSn@ee9cmD56T=kiz3
+R2
+R0
+R3
+R4
+R5
+L0 10513
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vmodefied_booth_enc
+!s110 1705927878
 !i10b 1
 !s100 H=ATNE8nK9V7[l<nQojM71
 I1A:hnf`aR27WE>Uc@e@zh3
 R2
 R0
-R3
+w1705927876
 R4
 R5
-L0 17
 R6
+R7
 r1
 !s85 0
 31
+!s108 1705927878.000000
+!s107 ../../../../../../../sim/tb/testbeach.v|tb_wallace_mul_time_impl.v|
+!s90 -incr|-mfcu|-work|xil_defaultlib|tb_wallace_mul_time_impl.v|../../../../../../../sim/tb/testbeach.v|
+!i113 1
+R11
+R12
+vpar_product_add__parameterized3
+R1
+!i10b 1
+!s100 D0ofjAT;3kz4Og=aW;ik01
+IQLT=B3U`<:XE:hKKPGM]c0
+R2
+R0
+R3
+R4
+R5
+L0 62
 R7
+r1
+!s85 0
+31
 R8
 R9
-!i113 1
 R10
+!i113 1
 R11
+R12
 vpar_product_calc
 R1
 !i10b 1
-!s100 DhAURAUI>VERz<VJYonU[3
-Ii_NKaBS9EM@akS0TNg`zU3
+!s100 3M=9;5zQKb]TcYiTaY=Oi1
+IL>SAJQfLdmeS3CS_HTWm_0
 R2
 R0
 R3
 R4
 R5
-L0 890
-R6
+L0 92
+R7
 r1
 !s85 0
 31
-R7
 R8
 R9
-!i113 1
 R10
+!i113 1
 R11
+R12
 vpar_product_gen
 R1
 !i10b 1
-!s100 7IWAFg_5z[jJo411FH=l83
-IPClgVOUfY3DL149abC[6K0
+!s100 J5JDclQ_fg1o946hf2D;60
+I]QX05FgN9RHg@nNVH2KYn2
 R2
 R0
 R3
 R4
 R5
-L0 1291
-R6
+L0 423
+R7
 r1
 !s85 0
 31
-R7
 R8
 R9
-!i113 1
 R10
+!i113 1
 R11
+R12
 vpar_product_gen_0
 R1
 !i10b 1
-!s100 ]XO[k4UjB`5DVi^09KnS<2
-IF]ljWn:D>[TfbRL`M>80e3
+!s100 kT:dO<T<ETPO?>zabmB:c1
+I>zQKl5N^6NBHXW`6LGBzO0
 R2
 R0
 R3
 R4
 R5
-L0 2271
-R6
+L0 1463
+R7
 r1
 !s85 0
 31
-R7
 R8
 R9
-!i113 1
 R10
+!i113 1
 R11
+R12
 vpar_product_gen_1
 R1
 !i10b 1
-!s100 cVYiK>U7G:F25]WcMJ?Vb1
-I9=cKZHLUO]DRWz4S^G[CU3
+!s100 T78K?Jkh3dW[JU63e;eif0
+Iz``il]c6a8cJHc05:P5Qh2
 R2
 R0
 R3
 R4
 R5
-L0 3436
-R6
+L0 2530
+R7
 r1
 !s85 0
 31
-R7
 R8
 R9
-!i113 1
 R10
+!i113 1
 R11
+R12
 vpar_product_gen_2
 R1
 !i10b 1
-!s100 bFJaXhW7;8ok_`8R=]l7z0
-Ii4Y4jD;?TnOQkhR51HCz21
+!s100 X]6BQ7D9Vo0HzfT@We1bE3
+I6z_c06UWYJ[zlh2`?B6GF1
 R2
 R0
 R3
 R4
 R5
-L0 4749
-R6
+L0 3702
+R7
 r1
 !s85 0
 31
-R7
 R8
 R9
-!i113 1
 R10
+!i113 1
 R11
+R12
 vpar_product_gen_3
 R1
 !i10b 1
-!s100 5ICaoZ[:Sj^6fiFmBR1TA0
-Ikj3<Hh`G>jWWSSchYASC31
+!s100 :K;6J:QCVUJ@mS:^6foQR0
+IEJedclUe6nJOIFnU7NePi2
 R2
 R0
 R3
 R4
 R5
-L0 5783
-R6
+L0 4772
+R7
 r1
 !s85 0
 31
-R7
 R8
 R9
-!i113 1
 R10
+!i113 1
 R11
+R12
 vpar_product_gen_4
 R1
 !i10b 1
-!s100 JGj6[nBO8gD[LA52IIOeM0
-IC9RN>1j0<Y@59aaW6ZGmW1
+!s100 ]0DVn9eajISa4[VaoIBfC1
+IZ6nUPE6PNSX=TboWSCA2a1
 R2
 R0
 R3
 R4
 R5
-L0 6943
-R6
+L0 5855
+R7
 r1
 !s85 0
 31
-R7
 R8
 R9
-!i113 1
 R10
+!i113 1
 R11
+R12
 vpar_product_gen_5
 R1
 !i10b 1
-!s100 KI9jYB0UHjCmWb:PM;`VN2
-Iml4EG;:mV:M9ddZjG_d;m1
+!s100 Fm<NCG93XM=3lcI1N?3@Y3
+IkLgW3SJQ9?>IBJa^mS;[?1
 R2
 R0
 R3
 R4
 R5
-L0 8012
-R6
+L0 7106
+R7
 r1
 !s85 0
 31
-R7
 R8
 R9
-!i113 1
 R10
+!i113 1
 R11
+R12
 vpar_product_gen_6
 R1
 !i10b 1
-!s100 iAaMLaRi=SBHJ0SWiTMlK2
-IEo9mkb54R?zHX3IQ_QPf90
+!s100 >ICb<k;@LY>AkeHQiDYgo3
+IDHE2CXlf56BELSdbb^<;<1
 R2
 R0
 R3
 R4
 R5
-L0 9681
-R6
+L0 9019
+R7
 r1
 !s85 0
 31
-R7
 R8
 R9
-!i113 1
 R10
+!i113 1
 R11
+R12
 vtb_wallace_mul
 R1
 !i10b 1
-!s100 Dz5=:bP9NB;>8lO>Wn`;h3
-IjOfg0H^P3>FN^L_U9d?230
+!s100 h_J=dOU]oCLiWAl]I8RH>2
+I>?W=LffO[_XSOaA2<J2CH2
 R2
 R0
-w1705906472
-8../../../../../../../sim/tb/testbeach.v
-F../../../../../../../sim/tb/testbeach.v
+w1705993873
+8../../../../../../../sim/tb/tb_wallace_tree.v
+F../../../../../../../sim/tb/tb_wallace_tree.v
 L0 3
-R6
+R7
 r1
 !s85 0
 31
-R7
 R8
 R9
-!i113 1
 R10
+!i113 1
 R11
+R12
 vwallace_mul
 R1
 !i10b 1
-!s100 I^hokbQClaN6[31:`NLPA3
-IBSiOQVZ]KXKdWfVVL8S_72
+!s100 l:5;8Mdn2GMcTcN7iJzPj1
+I_:K?OYm@6oiB^QmbO>;T?0
 R2
 R0
 R3
 R4
 R5
-L0 10598
-R6
+L0 10286
+R7
 r1
 !s85 0
 31
-R7
 R8
 R9
-!i113 1
 R10
+!i113 1
 R11
+R12

@@ -1,0 +1,363 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Tue Jan 23 17:09:44 2024
+# Process ID: 19104
+# Current directory: E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/prj/Wallace_Tree/Wallace_Tree.runs/synth_1
+# Command line: vivado.exe -log test_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source test_top.tcl
+# Log file: E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/prj/Wallace_Tree/Wallace_Tree.runs/synth_1/test_top.vds
+# Journal file: E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/prj/Wallace_Tree/Wallace_Tree.runs/synth_1\vivado.jou
+# Running On: xyh, OS: Windows, CPU Frequency: 2304 MHz, CPU Physical cores: 8, Host memory: 16889 MB
+#-----------------------------------------------------------
+source test_top.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 486.008 ; gain = 178.676
+Command: read_checkpoint -auto_incremental -incremental E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/prj/Wallace_Tree/Wallace_Tree.srcs/utils_1/imports/synth_1/wallace_mul.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/prj/Wallace_Tree/Wallace_Tree.srcs/utils_1/imports/synth_1/wallace_mul.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top test_top -part xc7z020clg400-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-2
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 24252
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1353.688 ; gain = 440.871
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'test_top' [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/test_top.v:1]
+INFO: [Synth 8-6157] synthesizing module 'wallace_mul' [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/wallace_mul.v:1]
+INFO: [Synth 8-6157] synthesizing module 'par_product_calc' [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/par_product/par_product_calc.v:1]
+INFO: [Synth 8-6157] synthesizing module 'modefied_booth_enc' [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/encoder/modefied_booth_enc.v:1]
+INFO: [Synth 8-226] default block is never used [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/encoder/modefied_booth_enc.v:10]
+INFO: [Synth 8-226] default block is never used [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/encoder/modefied_booth_enc.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'modefied_booth_enc' (0#1) [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/encoder/modefied_booth_enc.v:1]
+INFO: [Synth 8-6157] synthesizing module 'par_product_gen' [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/par_product/par_product_gen.v:1]
+INFO: [Synth 8-6157] synthesizing module 'cla_32bits' [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/adder/cla_32bits.v:1]
+INFO: [Synth 8-6157] synthesizing module 'adder4' [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/adder/adder4.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'adder4' (0#1) [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/adder/adder4.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'cla_32bits' (0#1) [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/adder/cla_32bits.v:1]
+WARNING: [Synth 8-7071] port 'cout' of module 'cla_32bits' is unconnected for instance 'u_cla_32bits' [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/par_product/par_product_gen.v:29]
+WARNING: [Synth 8-7023] instance 'u_cla_32bits' of module 'cla_32bits' has 5 connections declared, but only 4 given [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/par_product/par_product_gen.v:29]
+INFO: [Synth 8-6155] done synthesizing module 'par_product_gen' (0#1) [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/par_product/par_product_gen.v:1]
+INFO: [Synth 8-6157] synthesizing module 'par_product_add' [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/par_product/par_product_add.v:1]
+	Parameter product_length1 bound to: 28 - type: integer 
+	Parameter product_length2 bound to: 26 - type: integer 
+	Parameter product_length3 bound to: 24 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'full_adder' [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/adder/full_adder.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'full_adder' (0#1) [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/adder/full_adder.v:1]
+INFO: [Synth 8-6157] synthesizing module 'half_adder' [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/adder/half_adder.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'half_adder' (0#1) [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/adder/half_adder.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'par_product_add' (0#1) [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/par_product/par_product_add.v:1]
+WARNING: [Synth 8-7071] port 'sign' of module 'par_product_add' is unconnected for instance 'u_par_product_add0' [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/par_product/par_product_calc.v:97]
+WARNING: [Synth 8-7023] instance 'u_par_product_add0' of module 'par_product_add' has 6 connections declared, but only 5 given [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/par_product/par_product_calc.v:97]
+INFO: [Synth 8-6157] synthesizing module 'par_product_add__parameterized0' [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/par_product/par_product_add.v:1]
+	Parameter product_length1 bound to: 22 - type: integer 
+	Parameter product_length2 bound to: 20 - type: integer 
+	Parameter product_length3 bound to: 18 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'par_product_add__parameterized0' (0#1) [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/par_product/par_product_add.v:1]
+WARNING: [Synth 8-7071] port 'sign' of module 'par_product_add' is unconnected for instance 'u_par_product_add1' [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/par_product/par_product_calc.v:109]
+WARNING: [Synth 8-7023] instance 'u_par_product_add1' of module 'par_product_add' has 6 connections declared, but only 5 given [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/par_product/par_product_calc.v:109]
+INFO: [Synth 8-6157] synthesizing module 'par_product_add__parameterized1' [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/par_product/par_product_add.v:1]
+	Parameter product_length1 bound to: 32 - type: integer 
+	Parameter product_length2 bound to: 30 - type: integer 
+	Parameter product_length3 bound to: 28 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'par_product_add__parameterized1' (0#1) [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/par_product/par_product_add.v:1]
+WARNING: [Synth 8-689] width (30) of port connection 'product_out2' does not match port width (29) of module 'par_product_add__parameterized1' [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/par_product/par_product_calc.v:126]
+WARNING: [Synth 8-7071] port 'sign' of module 'par_product_add' is unconnected for instance 'u_par_product_add2' [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/par_product/par_product_calc.v:121]
+WARNING: [Synth 8-7023] instance 'u_par_product_add2' of module 'par_product_add' has 6 connections declared, but only 5 given [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/par_product/par_product_calc.v:121]
+INFO: [Synth 8-6157] synthesizing module 'par_product_add__parameterized2' [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/par_product/par_product_add.v:1]
+	Parameter product_length1 bound to: 25 - type: integer 
+	Parameter product_length2 bound to: 22 - type: integer 
+	Parameter product_length3 bound to: 19 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'par_product_add__parameterized2' (0#1) [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/par_product/par_product_add.v:1]
+WARNING: [Synth 8-7071] port 'sign' of module 'par_product_add' is unconnected for instance 'u_par_product_add3' [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/par_product/par_product_calc.v:133]
+WARNING: [Synth 8-7023] instance 'u_par_product_add3' of module 'par_product_add' has 6 connections declared, but only 5 given [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/par_product/par_product_calc.v:133]
+INFO: [Synth 8-6157] synthesizing module 'par_product_add__parameterized3' [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/par_product/par_product_add.v:1]
+	Parameter product_length1 bound to: 29 - type: integer 
+	Parameter product_length2 bound to: 25 - type: integer 
+	Parameter product_length3 bound to: 21 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'par_product_add__parameterized3' (0#1) [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/par_product/par_product_add.v:1]
+WARNING: [Synth 8-689] width (30) of port connection 'product1' does not match port width (29) of module 'par_product_add__parameterized3' [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/par_product/par_product_calc.v:146]
+WARNING: [Synth 8-689] width (30) of port connection 'product_out1' does not match port width (29) of module 'par_product_add__parameterized3' [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/par_product/par_product_calc.v:149]
+WARNING: [Synth 8-7071] port 'sign' of module 'par_product_add' is unconnected for instance 'u_par_product_add4' [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/par_product/par_product_calc.v:145]
+WARNING: [Synth 8-7023] instance 'u_par_product_add4' of module 'par_product_add' has 6 connections declared, but only 5 given [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/par_product/par_product_calc.v:145]
+INFO: [Synth 8-6157] synthesizing module 'par_product_add__parameterized4' [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/par_product/par_product_add.v:1]
+	Parameter product_length1 bound to: 32 - type: integer 
+	Parameter product_length2 bound to: 29 - type: integer 
+	Parameter product_length3 bound to: 24 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'par_product_add__parameterized4' (0#1) [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/par_product/par_product_add.v:1]
+WARNING: [Synth 8-689] width (30) of port connection 'product2' does not match port width (29) of module 'par_product_add__parameterized4' [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/par_product/par_product_calc.v:159]
+WARNING: [Synth 8-7071] port 'sign' of module 'par_product_add' is unconnected for instance 'u_par_product_add5' [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/par_product/par_product_calc.v:157]
+WARNING: [Synth 8-7023] instance 'u_par_product_add5' of module 'par_product_add' has 6 connections declared, but only 5 given [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/par_product/par_product_calc.v:157]
+INFO: [Synth 8-6155] done synthesizing module 'par_product_calc' (0#1) [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/par_product/par_product_calc.v:1]
+WARNING: [Synth 8-7071] port 'cout' of module 'cla_32bits' is unconnected for instance 'u_cla_32bits' [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/wallace_mul.v:18]
+WARNING: [Synth 8-7023] instance 'u_cla_32bits' of module 'cla_32bits' has 5 connections declared, but only 4 given [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/wallace_mul.v:18]
+INFO: [Synth 8-6155] done synthesizing module 'wallace_mul' (0#1) [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/wallace_mul.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'test_top' (0#1) [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/test_top.v:1]
+WARNING: [Synth 8-7129] Port sign[2] in module par_product_add__parameterized4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sign[1] in module par_product_add__parameterized4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sign[0] in module par_product_add__parameterized4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sign[2] in module par_product_add__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sign[1] in module par_product_add__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sign[0] in module par_product_add__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sign[2] in module par_product_add__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sign[1] in module par_product_add__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sign[0] in module par_product_add__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sign[2] in module par_product_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sign[1] in module par_product_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sign[0] in module par_product_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sign[2] in module par_product_add__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sign[1] in module par_product_add__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sign[0] in module par_product_add__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sign[2] in module par_product_add is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sign[1] in module par_product_add is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sign[0] in module par_product_add is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1466.301 ; gain = 553.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1466.301 ; gain = 553.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1466.301 ; gain = 553.484
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.041 . Memory (MB): peak = 1466.301 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/prj/Wallace_Tree/Wallace_Tree.srcs/constrs_1/new/constraints.xdc]
+Finished Parsing XDC File [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/prj/Wallace_Tree/Wallace_Tree.srcs/constrs_1/new/constraints.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/prj/Wallace_Tree/Wallace_Tree.srcs/constrs_1/new/constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/test_top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/test_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1567.953 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1567.953 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1567.953 ; gain = 655.137
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1567.953 ; gain = 655.137
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1567.953 ; gain = 655.137
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'par_product_reg' [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/par_product/par_product_gen.v:22]
+WARNING: [Synth 8-327] inferring latch for variable 'par_product_tmp_reg' [E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/rtl/par_product/par_product_gen.v:11]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1567.953 ; gain = 655.137
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    4 Bit       Adders := 1     
++---XORs : 
+	   3 Input      1 Bit         XORs := 134   
+	   2 Input      1 Bit         XORs := 18    
++---Registers : 
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 8     
+	   4 Input   32 Bit        Muxes := 8     
+	   2 Input   17 Bit        Muxes := 8     
+	  12 Input   15 Bit        Muxes := 2     
+	   2 Input    8 Bit        Muxes := 3     
+	   2 Input    4 Bit        Muxes := 1     
+	   8 Input    3 Bit        Muxes := 8     
+	   3 Input    1 Bit        Muxes := 8     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port sign[2] in module par_product_add__parameterized4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sign[1] in module par_product_add__parameterized4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sign[0] in module par_product_add__parameterized4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sign[2] in module par_product_add__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sign[1] in module par_product_add__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sign[0] in module par_product_add__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sign[2] in module par_product_add__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sign[1] in module par_product_add__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sign[0] in module par_product_add__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sign[2] in module par_product_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sign[1] in module par_product_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sign[0] in module par_product_add__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sign[2] in module par_product_add__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sign[1] in module par_product_add__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sign[0] in module par_product_add__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sign[2] in module par_product_add is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sign[1] in module par_product_add is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sign[0] in module par_product_add is either unconnected or has no load
+WARNING: [Synth 8-3332] Sequential element (par_product_tmp_reg[31]) is unused and will be removed from module par_product_gen.
+WARNING: [Synth 8-3332] Sequential element (par_product_tmp_reg[16]) is unused and will be removed from module par_product_gen__1.
+WARNING: [Synth 8-3332] Sequential element (par_product_tmp_reg[16]) is unused and will be removed from module par_product_gen__2.
+WARNING: [Synth 8-3332] Sequential element (par_product_tmp_reg[16]) is unused and will be removed from module par_product_gen__3.
+WARNING: [Synth 8-3332] Sequential element (par_product_tmp_reg[16]) is unused and will be removed from module par_product_gen__4.
+WARNING: [Synth 8-3332] Sequential element (par_product_tmp_reg[16]) is unused and will be removed from module par_product_gen__5.
+WARNING: [Synth 8-3332] Sequential element (par_product_tmp_reg[16]) is unused and will be removed from module par_product_gen__6.
+WARNING: [Synth 8-3332] Sequential element (par_product_reg[31]) is unused and will be removed from module par_product_gen__7.
+WARNING: [Synth 8-3332] Sequential element (par_product_tmp_reg[16]) is unused and will be removed from module par_product_gen__7.
+WARNING: [Synth 8-3332] Sequential element (par_product_reg[31]) is unused and will be removed from module par_product_gen.
+WARNING: [Synth 8-3332] Sequential element (par_product_reg[19]) is unused and will be removed from module par_product_gen.
+WARNING: [Synth 8-3332] Sequential element (par_product_tmp_reg[16]) is unused and will be removed from module par_product_gen.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1567.953 ; gain = 655.137
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1567.953 ; gain = 655.137
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1567.953 ; gain = 655.137
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (u_wallace_mul/u_par_product_calc/u_par_product_gen0/par_product_tmp_reg[15]) is unused and will be removed from module test_top.
+WARNING: [Synth 8-3332] Sequential element (u_wallace_mul/u_par_product_calc/u_par_product_gen1/par_product_tmp_reg[15]) is unused and will be removed from module test_top.
+WARNING: [Synth 8-3332] Sequential element (u_wallace_mul/u_par_product_calc/u_par_product_gen2/par_product_tmp_reg[15]) is unused and will be removed from module test_top.
+WARNING: [Synth 8-3332] Sequential element (u_wallace_mul/u_par_product_calc/u_par_product_gen6/par_product_tmp_reg[0]) is unused and will be removed from module test_top.
+WARNING: [Synth 8-3332] Sequential element (u_wallace_mul/u_par_product_calc/u_par_product_gen7/par_product_tmp_reg[0]) is unused and will be removed from module test_top.
+WARNING: [Synth 8-3332] Sequential element (u_wallace_mul/u_par_product_calc/u_par_product_gen7/par_product_reg[0]) is unused and will be removed from module test_top.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1567.953 ; gain = 655.137
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 1567.953 ; gain = 655.137
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 1567.953 ; gain = 655.137
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 1567.953 ; gain = 655.137
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 1567.953 ; gain = 655.137
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 1567.953 ; gain = 655.137
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 1567.953 ; gain = 655.137
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
+|2     |LUT1 |     2|
+|3     |LUT2 |    15|
+|4     |LUT3 |   107|
+|5     |LUT4 |    72|
+|6     |LUT5 |   226|
+|7     |LUT6 |   153|
+|8     |FDCE |     4|
+|9     |LDC  |   245|
+|10    |IBUF |     2|
+|11    |OBUF |    32|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 1567.953 ; gain = 655.137
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 39 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:23 . Memory (MB): peak = 1567.953 ; gain = 553.484
+Synthesis Optimization Complete : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 1567.953 ; gain = 655.137
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1567.953 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 245 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1567.953 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 245 instances were transformed.
+  LDC => LDCE: 245 instances
+
+Synth Design complete | Checksum: f2a0587e
+INFO: [Common 17-83] Releasing license: Synthesis
+53 Infos, 77 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1567.953 ; gain = 1078.961
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1567.953 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'E:/Xilinx/FPGA_Prjs/Lessons/Wallace_Tree/prj/Wallace_Tree/Wallace_Tree.runs/synth_1/test_top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file test_top_utilization_synth.rpt -pb test_top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Jan 23 17:10:23 2024...

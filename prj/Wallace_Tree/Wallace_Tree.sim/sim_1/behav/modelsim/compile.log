@@ -6,27 +6,29 @@
 # vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
 # Modifying modelsim.ini
 # Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
-# Start time: 20:30:46 on Jan 22,2024
-# vlog -incr -mfcu -work xil_defaultlib ../../../../../../rtl/adder/full_adder.v ../../../../../../rtl/adder/half_adder.v ../../../../../../rtl/encoder/modefied_booth_enc.v ../../../../../../rtl/par_product/par_product_add.v ../../../../../../rtl/par_product/par_product_calc.v ../../../../../../rtl/par_product/par_product_gen.v ../../../../../../rtl/wallace_mul.v ../../../../../../sim/tb/testbeach.v 
+# Start time: 15:30:43 on Jan 23,2024
+# vlog -incr -mfcu -work xil_defaultlib ../../../../../../rtl/adder/adder4.v ../../../../../../rtl/adder/cla_32bits.v ../../../../../../rtl/adder/full_adder.v ../../../../../../rtl/adder/half_adder.v ../../../../../../rtl/encoder/modefied_booth_enc.v ../../../../../../rtl/par_product/par_product_add.v ../../../../../../rtl/par_product/par_product_calc.v ../../../../../../rtl/par_product/par_product_gen.v ../../../../../../rtl/wallace_mul.v ../../../../../../sim/tb/tb_wallace_tree.v 
+# -- Skipping module adder4
+# -- Skipping module cla_32bits
 # -- Skipping module full_adder
 # -- Skipping module half_adder
 # -- Skipping module modefied_booth_enc
 # -- Skipping module par_product_add
-# -- Compiling module par_product_calc
-# -- Skipping module par_product_gen
+# -- Skipping module par_product_calc
+# -- Compiling module par_product_gen
 # -- Skipping module wallace_mul
 # -- Skipping module tb_wallace_mul
 # 
 # Top level modules:
 # 	tb_wallace_mul
-# End time: 20:30:46 on Jan 22,2024, Elapsed time: 0:00:00
+# End time: 15:30:43 on Jan 23,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
-# Start time: 20:30:46 on Jan 22,2024
+# Start time: 15:30:43 on Jan 23,2024
 # vlog -work xil_defaultlib glbl.v 
 # -- Compiling module glbl
 # 
 # Top level modules:
 # 	glbl
-# End time: 20:30:46 on Jan 22,2024, Elapsed time: 0:00:00
+# End time: 15:30:43 on Jan 23,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
